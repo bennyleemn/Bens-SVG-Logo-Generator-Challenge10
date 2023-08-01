@@ -4,12 +4,13 @@
     "description": "logo generator",
     "main": "index.js",
     "scripts": {
-      "test": "jest"
+        "test": "jest"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "jest": "^24.9.0",
-      "inquirer":"^8.2.4"
+        "inquirer": "^8.2.4",
+        "jest": "^24.9.0",
+        "svg-canvas": "^1.0.2"
     }
-  }
+}

@@ -1,7 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const svgwrite = require('svgwrite');
-const { Triangle, Circle, Square } = require('./lib/shapes');
+// const { createCanvas } = require('svg-canvas');
+const { Triangle, Circle, Square } = require('./assets/shapes');
 
 class LogoGenerator {
   constructor() {
@@ -61,6 +62,28 @@ class LogoGenerator {
     svgDocument.text(this.text).move('130px', '150px').fill(this.textColor);
     svgDocument.save();
   }
+
+
+  //   const canvas = createCanvas(300, 200);
+  //   const ctx = canvas.getContext('2d');
+
+  //   const shape = this.getShapeInstance();
+  //   shape.setColor(this.shapeColor);
+  //   shape.draw(ctx);
+
+  //   ctx.fillStyle = this.textColor;
+  //   ctx.font = 'bold 16px Arial';
+  //   ctx.fillText(this.text, 130, 150);
+    
+  //   const svgDocument = canvas.toXML();
+  //   // const shape = this.getShapeInstance();
+  //   // shape.setColor(this.shapeColor);
+
+  //   // svgDocument.add(shape.render());
+  //   // svgDocument.text(this.text).move('130px', '150px').fill(this.textColor);
+  //   // // 
+  //   fs.writeFileSync('logo.svg', svgDocument, 'utf-8');
+  // }
 
   getShapeInstance() {
     switch (this.shape) {
