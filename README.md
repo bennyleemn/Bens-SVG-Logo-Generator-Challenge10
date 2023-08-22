@@ -5,7 +5,7 @@ Description: Create a simple cli application to generate a SVG logo where the te
 
 Link to repo: [https://github.com/bennyleemn/Bens-SVG-Logo-Generator-Challenge10/tree/main]
 
-Example SVG Logo  ![LOGO EXAMPLE](./library/circle.svg)
+Example SVG Logo  ![LOGO EXAMPLE](./library/Square.svg)
 
 Walk-through Video [TBD]
 
