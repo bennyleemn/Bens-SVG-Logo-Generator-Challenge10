@@ -6,7 +6,7 @@ Link to deployed site: check it out --> [(https://bennyleemn.github.io/Bens-Weat
 
 Link to repo: [https://github.com/bennyleemn/Bens-WeatherApp-Challenge-6]
 
-Example SVG Logo  ![LOGO EXAMPLE](./assets/WeatherAppScreenShot1.png)
+Example SVG Logo  ![LOGO EXAMPLE](./library/circle.svg)
 
 
 Contributors: Slack or Discord Study Groups - TA (Akon and Quinton), internet (stackoverflow), prior coursework, additional resources (developer friends) as needed.
